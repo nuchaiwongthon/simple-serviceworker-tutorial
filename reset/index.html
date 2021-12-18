@@ -8,6 +8,7 @@
   <body>
     <h1>Resetting ServiceWorker</h1>
     <script>
+      let db;
       (function() {
         if (/reset$/.test(location.pathname)) {
           location.href = 'reset/';
